@@ -1,0 +1,8 @@
+body{
+  /* background-color: purple; */
+  background-image: url('Assets/sunset1.jpg');
+  background-positon: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
