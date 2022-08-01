@@ -1,8 +1,25 @@
 body{
   /* background-color: purple; */
-  background-image: url('Assets/sunset1.jpg');
-  background-positon: center;
+  /* background-image: url('Assets/sunset1.jpg'); */
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.box{
+  /* background-color: blue; */
+  /* background-color: rgba(204,41,54,0.2); */
+  background-image: linear-gradient(45deg, cyan, pink);
+  opacity: 0.5;
+  /* box-shadow: 20px 20px 20px 20px pink; */
+  border-radius: 50%;
 }
