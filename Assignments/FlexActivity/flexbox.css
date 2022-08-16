@@ -51,7 +51,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   width: 900px;
   height: 300px;
 }
@@ -77,8 +77,12 @@
 }
 
 .subscribe, .social{
-  align-self: flex-end;
+  /* align-self: flex-end; */
   margin-bottom: 20px;
+}
+
+.logo{
+  align-self: center;
 }
 
 .footer{
